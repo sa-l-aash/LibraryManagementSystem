@@ -22,17 +22,16 @@ Public Class Form1
         Try
             sqlconn = New SqlConnection()
             sqlconn.ConnectionString = $"Server={Server};Database={Database};Integrated Security=True;"
-
             sqlconn.Open()
+            'displaying contents of the db on the DataGridView
             sqlcmd = New SqlCommand("SELECT * FROM Books", sqlconn)
             sqlRd = sqlcmd.ExecuteReader()
-
             sqlDt.Clear()
             sqlDt.Load(sqlRd)
             sqlRd.Close()
             sqlconn.Close()
             dvgBooks.DataSource = sqlDt
-
+'exception handling
         Catch ex As Exception
             MessageBox.Show(ex.Message, "MSSQL Connector", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
@@ -49,7 +48,7 @@ Public Class Form1
             sqlconn.ConnectionString = $"Server={Server};Database={Database};Integrated Security=True;"
 
             sqlconn.Open()
-
+            'inserting data into the table
             sqlQuery = "INSERT INTO Books (Title, Author, YearPublished, Genre) VALUES (@Title, @Author, @YearPublished, @Genre)"
 
             sqlcmd = New SqlCommand(sqlQuery, sqlconn)
@@ -59,6 +58,7 @@ Public Class Form1
             sqlcmd.Parameters.AddWithValue("@Genre", txtGenre.Text)
             sqlcmd.ExecuteNonQuery()
             sqlconn.Close()
+            'exception handling
         Catch ex As Exception
             MessageBox.Show(ex.Message, "MSSQL Connector", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
@@ -89,6 +89,7 @@ Public Class Form1
             sqlcmd.Parameters.AddWithValue("@Title", txtTitle.Text)
             sqlcmd.ExecuteNonQuery()
             sqlconn.Close()
+            'exception handling
         Catch ex As Exception
             MessageBox.Show(ex.Message, "MSSQL Connector", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
@@ -116,6 +117,7 @@ Public Class Form1
             sqlcmd.Parameters.AddWithValue("@Title", txtTitle.Text)
             sqlcmd.ExecuteNonQuery()
             sqlconn.Close()
+            'exception handling
         Catch ex As Exception
             MessageBox.Show(ex.Message, "MSSQL Connector", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
@@ -134,12 +136,13 @@ Public Class Form1
             sqlconn.ConnectionString = $"Server={Server};Database={Database};Integrated Security=True;"
 
             sqlconn.Open()
-            'deletes all from table books
+            'deletes all data from table books
             sqlQuery = "DELETE FROM Books"
 
             sqlcmd = New SqlCommand(sqlQuery, sqlconn)
             sqlcmd.ExecuteNonQuery()
             sqlconn.Close()
+            'exception handling
         Catch ex As Exception
             MessageBox.Show(ex.Message, "MSSQL Connector", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
