@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|solutionrelative:libraymanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|c:\\users\\kwcak\\source\\repos\\libraymanagementsystem\\libraymanagementsystem\\libraymanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|solutionrelative:libraymanagementsystem\\libraymanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|c:\\users\\kwcak\\source\\repos\\libraymanagementsystem\\libraymanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|solutionrelative:libraymanagementsystem\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|c:\\users\\kwcak\\source\\repos\\libraymanagementsystem\\libraymanagementsystem\\libraymanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0BC0EB31-854B-49E3-A5C7-F2DA12450CFD}|LibrayManagementSystem\\LibrayManagementSystem.vbproj|solutionrelative:libraymanagementsystem\\libraymanagementsystem.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,15 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -46,28 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "LibrayManagementSystem",
               "DocumentMoniker": "C:\\Users\\kwcak\\source\\repos\\LibrayManagementSystem\\LibrayManagementSystem\\LibrayManagementSystem.vbproj",
               "RelativeDocumentMoniker": "LibrayManagementSystem\\LibrayManagementSystem.vbproj",
               "ToolTip": "C:\\Users\\kwcak\\source\\repos\\LibrayManagementSystem\\LibrayManagementSystem\\LibrayManagementSystem.vbproj",
               "RelativeToolTip": "LibrayManagementSystem\\LibrayManagementSystem.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2024-07-10T11:19:03.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T11:19:03.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\Users\\kwcak\\source\\repos\\LibrayManagementSystem\\LibrayManagementSystem\\Form1.vb",
               "RelativeDocumentMoniker": "LibrayManagementSystem\\Form1.vb",
               "ToolTip": "C:\\Users\\kwcak\\source\\repos\\LibrayManagementSystem\\LibrayManagementSystem\\Form1.vb",
               "RelativeToolTip": "LibrayManagementSystem\\Form1.vb",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAgwI0AAAAbAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAUwJkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-09T08:25:04.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-09T08:25:04.422Z"
             }
           ]
         }
